@@ -19,15 +19,32 @@ wget --no-check-certificate -O shadowsocks.sh https://gh-proxy.org/https://raw.g
 ```
 
 #### 卸载方法
-```./shadowsocks.sh uninstall```
+```
+./shadowsocks.sh uninstall
+```
+
 #### 配置文件路径
-```/etc/shadowsocks.json```
+```
+/etc/shadowsocks.json
+```
+
 #### 常用命令:
-#启动:
-```/etc/init.d/shadowsocks start```
-#停止:
-```/etc/init.d/shadowsocks stop```
-#重启:
-```/etc/init.d/shadowsocks restart```
-#查看状态:
-```/etc/init.d/shadowsocks status```
+##### 启动:
+```
+/etc/init.d/shadowsocks start
+```
+
+##### 停止:
+```
+/etc/init.d/shadowsocks stop
+```
+
+##### 重启:
+```
+/etc/init.d/shadowsocks restart
+```
+
+##### 查看状态:
+```
+/etc/init.d/shadowsocks status
+```
