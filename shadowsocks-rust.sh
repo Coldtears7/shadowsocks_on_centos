@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# Copyright © Telegram:@Ciuwai
 # Shadowsocks-Rust 一键安装脚本，适用于 Ubuntu/Debian 与现代 RHEL 系统
 
 set -Eeuo pipefail
@@ -12,7 +11,7 @@ readonly CONFIG_FILE="${CONFIG_DIR}/config.json"
 readonly SERVICE_FILE="/etc/systemd/system/shadowsocks-rust.service"
 readonly SERVICE_NAME="shadowsocks-rust.service"
 readonly SERVICE_USER="shadowsocks-rust"
-readonly LOG_TAG="Telegram:@Ciuwai"
+readonly LOG_TAG="奶子哥"
 
 temp_dir=""
 port=""
