@@ -1,6 +1,7 @@
 ## 一键安装shadowsocks
 
 ### 通用
+export DOWNLOAD_PREFIX=https://gh-proxy.org/
 wget --no-check-certificate -O shadowsocks.sh https://raw.githubusercontent.com/Coldtears7/shadowsocks_on_centos/refs/heads/main/shadowsocks-rust.sh && chmod +x shadowsocks.sh && ./shadowsocks.sh 2>&1 | tee shadowsocks.log
 
 ### 国外服务器：
