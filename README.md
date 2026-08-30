@@ -1,7 +1,7 @@
 ## 一键安装shadowsocks
 
 ### 通用
-wget --no-check-certificate -O shadowsocks.sh https://raw.githubusercontent.com/Coldtears7/shadowsocks_on_centos/refs/heads/main/shadowsocks-rust && chmod +x shadowsocks.sh && ./shadowsocks.sh 2>&1 | tee shadowsocks.log
+wget --no-check-certificate -O shadowsocks.sh https://raw.githubusercontent.com/Coldtears7/shadowsocks_on_centos/refs/heads/main/shadowsocks-rust.sh && chmod +x shadowsocks.sh && ./shadowsocks.sh 2>&1 | tee shadowsocks.log
 
 ### 国外服务器：
 wget --no-check-certificate -O shadowsocks.sh https://raw.githubusercontent.com/Coldtears7/shadowsocks_on_centos/refs/heads/main/shadowsocks.sh && chmod +x shadowsocks.sh && ./shadowsocks.sh 2>&1 | tee shadowsocks.log
