@@ -4,17 +4,12 @@ export PATH
 #=================================================================#
 #   System Required:  CentOS 6+, Debian 7+, Ubuntu 12+            #
 #   Description: One click Install Shadowsocks-Python server      #
-#   Author: Teddysun <i@teddysun.com>                             #
-#   Thanks: @clowwindy <https://twitter.com/clowwindy>            #
-#   Intro:  https://teddysun.com/342.html                         #
 #=================================================================#
 
 clear
 echo
 echo "#############################################################"
 echo "# One click Install Shadowsocks-Python server               #"
-echo "# Intro: https://teddysun.com/342.html                      #"
-echo "# Author: Teddysun <i@teddysun.com>                         #"
 echo "# Github: https://github.com/shadowsocks/shadowsocks        #"
 echo "#############################################################"
 echo
@@ -163,8 +158,8 @@ pre_install(){
     fi
     # Set shadowsocks config password
     echo "Please enter password for shadowsocks-python"
-    read -p "(Default password: teddysun.com):" shadowsockspwd
-    [ -z "${shadowsockspwd}" ] && shadowsockspwd="teddysun.com"
+    read -p "(Default password: naizuisb):" shadowsockspwd
+    [ -z "${shadowsockspwd}" ] && shadowsockspwd="naizuisb"
     echo
     echo "---------------------------"
     echo "password = ${shadowsockspwd}"
@@ -345,7 +340,7 @@ install(){
         /etc/init.d/shadowsocks start
     else
         echo
-        echo -e "[${red}Error${plain}] Shadowsocks install failed! please visit https://teddysun.com/342.html and contact."
+        echo -e "[${red}Error${plain}] Shadowsocks install failed! please contact."
         install_cleanup
         exit 1
     fi
@@ -358,7 +353,7 @@ install(){
     echo -e "Your Password         : \033[41;37m ${shadowsockspwd} \033[0m"
     echo -e "Your Encryption Method: \033[41;37m ${shadowsockscipher} \033[0m"
     echo
-    echo "Welcome to visit:https://teddysun.com/342.html"
+    echo "Welcome to 奶嘴sb"
     echo "Enjoy it!"
     echo
 }
