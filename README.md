@@ -1,4 +1,4 @@
-### 一键安装shadowsocks
+### 一键搭建shadowsocks节点
 
 ### 通用
 ```
